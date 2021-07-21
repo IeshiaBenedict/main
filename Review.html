@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en-CA">
+
+    <head>
+    <title> Ieshias PlantKin-Home Page</title>
+    <link rel="stylesheet" href="day10stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+<!-- this is my stylesheet^-->
+
+<body>
+
+    <img src="mylogo.JPG" alt="My Logo" width="100" height="100">
+        
+    <h1> PlantKin </h1>
+        
+    <hr>
+
+<nav>
+<a href="Shop.html">Shop!</a>
+<a href="siteplan.html">Site Plan</a>
+<a href="signup.html">Sign Up!</a>
+</nav>
+
+<br>
+<br>
+<br>
+
+<form>
+<form id="myform" action="mailto:W0468714@nscc.campus.ca?subject=Someone%20Filled%20Out%20your%20form&body=Here%20you%20go%20" method="post" enctype="text/plain"></form>
+<label for="hdylau">How did you learn about us?</label>
+<input type="text" required id="hdylau" name="hdylau" 
+pattern="[a-z]{2,10}" title="2 to 15 lowercase letters"><br><br>
+
+<label> Did you purchase something today?</label><br>
+<input type="radio" id="yes" name="yes" value="yes"> 
+<label for="dypst">Yes</label><br>
+<input type="radio" id="no" name="no" value="no">
+<label for="dyps">No</label><br>
+
+<br>
+
+<label for="wdylaow">What do you like about our website?</label>
+<input type="text" required id="wdylaow" name="wdylaow" 
+pattern="[a-z]{2,10}" title="2 to 15 lowercase letters"><br><br>
+
+
+<label for="wdydaow">What do you dislike about our website?</label>
+<input type="text" required id="wdydaow" name="wdydaow" 
+pattern="[a-z]{2,10}" title="2 to 15 lowercase letters"><br><br>
+
+<p id="p2">
+  <label for="heiitnow">How easy is it to navigate our website?</label>
+   😪 <input type="range" name="heiitnow" id="heiitnow" min="1" max="10" step="1" value="1"> 🥰
+  <output class="price-output" for="price"></output><br><br>
+<p>
+
+<label id="return" for=return>Did you return any items you bought from us?</label>
+<input list="return" name="return">
+ <datalist id="return">
+  <option value="yes">
+  <option value="no">
+</datalist><br>
+
+<br>
+
+<label id="whyreturn" for="wdyr">Why did you return your item?</label><br>
+<input type="checkbox" id="order" name="order" value="order">
+<label id="order" for="order"> Not what I ordered </label><br>
+<input type="checkbox" id="want"  name="want" value="want">
+<label id="order" for="want"> Not what I wanted </label><br>
+
+<br>
+
+<label id="fair"> Do you think our prices are fair? </label><br>
+<input type="radio" id="yesss" name="yesss" value="yes"> 
+<label id="yes1" for="dypst">Yes</label><br>
+<input type="radio" id="nooo" name="nooo" value="no">
+<label id="no1" for="dyps">No</label><br>
+
+<br>
+
+<label id="fair2" for="inw">If not why?</label>
+<input type="text" required id="inw" name="inw" required size="60"
+pattern="[a-z]{2,10}" title="2 to 15 lowercase letters"><br><br>
+
+<br>
+
+<label id="plant" for="wyfpoo">What's your favourite plant of ours?</label>
+<input type="text" required id="wyfpoo" name="wyfpoo" required size="60"
+pattern="[a-z]{2,10}" title="2 to 15 lowercase letters"><br><br>
+</form>
+
+<input type="submit" value="send">
+<input type="reset"  value="reset">
+
+<hr>
+<article id="footer">
+<img src="mylogo.JPG" alt="My Logo" width="50" height="50">
+<address>
+Written by Ieshia Benedict.<br>
+5685 Leeds St, Halifax NS<br>
+B3K 2T3. Call us at 902-491 6774<br>
+</address>
+</article>
+
+<!-- this is my address^ -->
+    </html>
