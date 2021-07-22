@@ -198,6 +198,20 @@ td {
 
 /* home page css */
 
+#homep {
+	width: 50%;
+}
+
+#article2 {
+	display: block;
+	float: right;
+	margin-right: 200px;
+}
+
+#table3 {
+	border: 1px solid black;
+}
+
 h5 {
   width: 600px;
   height: 100px;
@@ -215,16 +229,4 @@ h5 {
   100% {background-color: lightgreen; left:0px; top:0px;}
 }
 
-#homep {
-	width: 50%;
-}
 
-#article2 {
-	display: block;
-	float: right;
-	margin-right: 200px;
-}
-
-#table3 {
-	border: 1px solid black;
-}
