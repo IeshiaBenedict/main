@@ -223,7 +223,7 @@ article {
 }
 
 @keyframes example {
-  0%   {background-color:white; left:0px; top:0px;}
+  0%   {background-color:#355f57; left:0px; top:0px;}
   25%  {background-color:darkseagreen; left:200px; top:0px;}
   50%  {background-color:black; left:200px; top:200px;}
   75%  {background-color:grey; left:0px; top:200px;}
