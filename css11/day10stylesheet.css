@@ -209,3 +209,23 @@ td {
 #description {
 	width: 50%;
 }
+
+
+/* home page css */
+
+article {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+@keyframes example {
+  0%   {background-color:white; left:0px; top:0px;}
+  25%  {background-color:darkseagreen; left:200px; top:0px;}
+  50%  {background-color:black; left:200px; top:200px;}
+  75%  {background-color:grey; left:0px; top:200px;}
+  100% {background-color:mintgreen; left:0px; top:0px;}
+}
