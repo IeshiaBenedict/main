@@ -58,13 +58,13 @@
         pattern="[a-z]{2,10}" title="2 to 15 lowercase letters"><br><br>
 
         <label for="Postalcode">Postal code:</label><br>
-        <input type="text" id="city" name="city" required size="45"><br><br>
+        <input type="text" id="city" name="city" required size="45" pattern="[A-Z][0-9][A-Z] [0-9][A-Z][0-9]><br><br>
 
   <label for="age">Age:</label><br>
   <input type="number" required id="age" name="age" min="16" max="99" step="1"><br><br>
         
   <label for="tel">Phone number (xxx-xxx-xxxx):</label><br>
-  <input type="tel" id="tel" name="tel" pattern="[1-9]{3}-[1-9]{3}-[1-9]{4}" requiref><br><br>
+  <input type="tel" id="tel" name="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890" required><br><br>
 
   <label for="email">Email:</label><br>
   <input type="email" required id="email" name="email"><br><br>
