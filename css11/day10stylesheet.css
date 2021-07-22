@@ -129,21 +129,6 @@ h1 {
 tr:hover {background-color: white;}
 
 
-/* home page css code */
-
-#homep {
-	width: 50%;
-}
-
-#article2 {
-	display: block;
-	float: right;
-	margin-right: 200px;
-}
-
-#table3 {
-	border: 1px solid black;
-}
 
 /* contact us css code */
 
@@ -228,4 +213,18 @@ h5 {
   50%  {background-color:black; left:200px; top:200px;}
   75%  {background-color:grey; left:0px; top:200px;}
   100% {background-color: lightgreen; left:0px; top:0px;}
+}
+
+#homep {
+	width: 50%;
+}
+
+#article2 {
+	display: block;
+	float: right;
+	margin-right: 200px;
+}
+
+#table3 {
+	border: 1px solid black;
 }
