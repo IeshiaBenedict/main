@@ -212,7 +212,7 @@ td {
 	border: 1px solid black;
 }
 
-h5 {
+details {
   width: 200px;
   height: 100px;
   background-color: red;
