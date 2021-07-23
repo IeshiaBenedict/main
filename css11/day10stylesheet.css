@@ -126,6 +126,8 @@ h1 {
 	text-shadow: white 3px 3px 3px;
 }
 
+/* the text shadow is the second thing we didn't learn */
+
 tr:hover {background-color: white;}
 
 
