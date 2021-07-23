@@ -215,16 +215,16 @@ td {
 }
 
 aside {
-  width: 500px;
-  height: 50px;
-  background-color: white;
-  animation-name: block;
+  width: 400px;
+  height: 20px;
+  background-color: green;
+  animation-name: numo;
   animation-duration: 4s;
 }
 
-@keyframes block {
-  from {background-color: white;}
-  to {background-color: green;}
+@keyframes numo {
+  from {background-color: green;}
+  to {background-color: black;}
 }
 
 
