@@ -215,14 +215,14 @@ td {
 }
 
 aside {
-  width: 400px;
+  width: 500px;
   height: 20px;
   background-color: green;
-  animation-name: numo;
+  animation-name: example;
   animation-duration: 4s;
 }
 
-@keyframes numo {
+@keyframes example {
   from {background-color: green;}
   to {background-color: black;}
 }
